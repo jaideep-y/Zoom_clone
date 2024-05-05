@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Alert = () => {
+const Alert = ({title) => {
   return (
-    <div>Alert</div>
+    <div>{title}</div>
   )
 }
 
