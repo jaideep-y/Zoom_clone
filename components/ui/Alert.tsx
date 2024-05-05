@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Alert: React.FC<AlertProps> = ({ title }: AlertProps) => {
+const Alert = () => {
   return (
-    <div className="alert">
-      {title}
-    </div>
-  );
-};
+    <div>Alert</div>
+  )
+}
+
 
 
 export default Alert
