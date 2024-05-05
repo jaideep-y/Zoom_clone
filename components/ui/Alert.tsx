@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Alert = ({title) => {
+const Alert = ({title}) => {
   return (
     <div>{title}</div>
   )
